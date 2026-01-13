@@ -19,7 +19,7 @@ app.config['SPECTROGRAM_FOLDER'] = 'static/spectrograms'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 os.makedirs(app.config['SPECTROGRAM_FOLDER'], exist_ok=True)
 
-# --- LOAD MODEL ---
+# ---- LOAD MODEL ----
 MODEL_PATH = "deepfake_model_lr.pkl"
 try:
     if os.path.exists(MODEL_PATH):
